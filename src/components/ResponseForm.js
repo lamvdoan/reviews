@@ -33,7 +33,7 @@ export class ResponseForm extends React.Component {
             this.props.handleSubmit({
                 comment: this.state.comment,
                 commenter: this.state.commenter || "anonymous",
-                date: today.getDate() + "-" + today.getMonth() + "-" + today.getFullYear()
+                date: today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear()
             });
         }
 
