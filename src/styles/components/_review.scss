@@ -1,0 +1,45 @@
+.reviews-container {
+    display: block;
+    text-align: center;
+}
+
+.reviews-table {
+    display: inline-block;
+}
+
+.review-cell {
+    background-color: white;
+    width: $box-width;
+    height: $box-width;
+    font-size: $s-size;
+    color: $black;
+    margin: $xl-size;
+    padding: $m-size;
+    text-align: left;
+}
+
+.review-cell-top {
+    height: 90%;
+}
+
+.review-cell-bottom {
+    height: 10%;
+}
+
+.review__place {
+    font-size: $m-size;
+    font-weight: bold;
+}
+
+.review__content {
+    color: $light-grey;
+}
+
+.review__author {
+    margin-right: $l-size;
+}
+
+.review__published_at {
+    margin-right: $l-size;
+    color: $light-grey;
+}

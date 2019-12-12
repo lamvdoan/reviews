@@ -1,0 +1,13 @@
+.text-input {
+    border: 1px solid #cacccd;
+    height: $l-size;
+    width: 100%;
+    padding: $s-size;
+    font-size: $font-size-large;
+    font-weight: 300;
+}
+
+.text-area {
+    @extend .text-input;
+    height: 10rem;
+}
